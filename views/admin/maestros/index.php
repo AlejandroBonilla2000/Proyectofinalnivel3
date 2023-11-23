@@ -40,10 +40,12 @@
                     <!-- Agrega más columnas según sea necesario -->
                     <td class="py-2 px-4 border-b">
                         <a href="/maestros/edit?id=<?php echo $maestro['id']; ?>"
-                            class="text-blue-500 hover:underline mr-2">Editar</a>
+                            class="text-blue-500 hover:underline mr-2"><img src="/assets/lapiz.svg" alt="Editar"
+                                class="icono-lapiz text-yellow-500"></a>
                         <form action="/maestros/delete" method="POST" class="inline-block">
                             <input type="hidden" name="id" value="<?php echo $maestro['id']; ?>">
-                            <button type="submit" class="text-red-500 hover:underline">Eliminar</button>
+                            <button type="submit" class="text-red-500 hover:underline"><img src="/assets/delete.svg"
+                                    alt="Eliminar" class="icono-lapiz text-red-500"></button>
                         </form>
                     </td>
                 </tr>

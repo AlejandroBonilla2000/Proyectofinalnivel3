@@ -39,6 +39,9 @@
             </ul>
             <?php endif; ?>
         </nav>
+        <div class="text-right">
+            <a href="/logout" class="text-red-500 hover:text-red-700">Cerrar Sesión</a>
+        </div>
 
     </div>
 
