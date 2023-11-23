@@ -91,7 +91,7 @@ if ($method === "POST") {
 
 if ($method === "GET") {
     switch ($route[0]) {
-        case '/index.php':
+        case '/login':
             $usuarioController->loginForm();
             break;
 
