@@ -92,7 +92,7 @@ if ($method === "POST") {
 if ($method === "GET") {
     switch ($route[0]) {
         case '/login':
-            $usuarioController->loginForm();
+            $usuarioController->login();
             break;
 
         case '/maestros':
