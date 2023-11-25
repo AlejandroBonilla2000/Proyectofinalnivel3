@@ -13,7 +13,8 @@
     <div class="container mx-auto my-8 p-8 bg-white shadow-md rounded-md">
 
         <h1 class="text-3xl font-bold mb-6 text-gray-800">Crear Nuevo Maestro</h1>
-
+        <a href="/maestros"
+            class="inline-block bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-md transition-colors duration-300">Back</a>
         <form action="/maestros/create" method="POST" class="space-y-4">
             <!-- Agrega los campos necesarios para crear un maestro -->
             <div>

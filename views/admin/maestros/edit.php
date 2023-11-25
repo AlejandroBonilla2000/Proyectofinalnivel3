@@ -13,6 +13,8 @@
     <div class="container mx-auto my-8 p-8 bg-white shadow-md rounded-md">
 
         <h1 class="text-3xl font-bold mb-6 text-gray-800">Editar Maestro</h1>
+        <a href="/maestros"
+            class="inline-block bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-md transition-colors duration-300">Back</a>
 
         <form action="/maestros/update" method="POST" class="space-y-4">
             <!-- Agrega los campos necesarios para editar un maestro -->

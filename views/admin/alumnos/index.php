@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Alumnos</title>
     <link href="/dist/output.css" rel="stylesheet">
+
 </head>
 
 <body class="bg-gray-100">
@@ -13,6 +14,8 @@
     <div class="container mx-auto my-8 p-8 bg-white shadow-md rounded-md">
 
         <h1 class="text-3xl font-bold mb-6 text-gray-800">Lista de Alumnos</h1>
+        <a href="/home"
+            class="inline-block bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-md transition-colors duration-300">Back</a>
 
         <table class="w-full border-collapse border border-gray-300">
             <thead>
