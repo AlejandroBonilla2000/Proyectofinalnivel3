@@ -92,7 +92,7 @@ if ($method === "POST") {
 if ($method === "GET") {
     switch ($route[0]) {
         case '/login':
-            $usuarioController->login();
+            $usuarioController->loginForm();
             break;
 
         case '/maestros':
@@ -138,7 +138,7 @@ if ($method === "GET") {
         case '/logout': 
             $usuarioController->logout();
             break;
-
+            
         default:
             echo "NO ENCONTRAMOS LA RUTA.";
             break;
