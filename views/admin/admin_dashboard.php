@@ -22,6 +22,7 @@ $nombre = isset($_SESSION["usuario_nombre"]) ? $_SESSION["usuario_nombre"] : nul
     <div class="flex h-screen bg-gray-200">
         <div class="flex-shrink-0 w-64 bg-blue-800">
             <div class="flex-shrink-0 flex items-center justify-center">
+                <img src="../assets/logo.jpg" alt="Logo" class="w-10 2mx-auto mb-4 rounded-full">
                 <h1 class="text-2xl font-semibold text-white">Universidad</h1>
             </div>
             <nav class="flex-grow mt-4">
